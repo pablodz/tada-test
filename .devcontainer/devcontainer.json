@@ -4,7 +4,6 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "runArgs": ["--gpus", "all"],
   "containerEnv": {
     "PYTHONUNBUFFERED": "1",
     "PIP_DISABLE_PIP_VERSION_CHECK": "1"
